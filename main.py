@@ -40,8 +40,7 @@ class Triangle(Shape):
 
 def print_area(shapes:list[Shape]):
     for shape in shapes:
-        print(f"{shape.__class__.__name__} erea: {shape.calculate_area():.2f}cls
-              см")
+        print(f"{shape.__class__.__name__} erea: {shape.calculate_area():.2f}см")
 
 
 shapes = [
